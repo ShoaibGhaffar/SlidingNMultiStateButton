@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22748DF917E053C1005D9EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22748DF817E053C1005D9EDA /* UIKit.framework */; };
+		22748DFB17E053C1005D9EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22748DFA17E053C1005D9EDA /* Foundation.framework */; };
+		22748DFD17E053C1005D9EDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22748DFC17E053C1005D9EDA /* CoreGraphics.framework */; };
+		22748E0317E053C1005D9EDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22748E0117E053C1005D9EDA /* InfoPlist.strings */; };
+		22748E0517E053C1005D9EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22748E0417E053C1005D9EDA /* main.m */; };
+		22748E0917E053C1005D9EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22748E0817E053C1005D9EDA /* AppDelegate.m */; };
+		22748E0B17E053C1005D9EDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E0A17E053C1005D9EDA /* Default.png */; };
+		22748E0D17E053C1005D9EDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E0C17E053C1005D9EDA /* Default@2x.png */; };
+		22748E0F17E053C1005D9EDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E0E17E053C1005D9EDA /* Default-568h@2x.png */; };
+		22748E1217E053C1005D9EDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22748E1117E053C1005D9EDA /* ViewController.m */; };
+		22748E1517E053C1005D9EDA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22748E1317E053C1005D9EDA /* ViewController.xib */; };
+		22748E2217E05475005D9EDA /* MultiStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22748E1E17E05475005D9EDA /* MultiStateButton.m */; };
+		22748E2317E05475005D9EDA /* SlidingButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22748E2117E05475005D9EDA /* SlidingButtonsView.m */; };
+		22748E2B17E054A9005D9EDA /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E2517E054A9005D9EDA /* button.png */; };
+		22748E2C17E054A9005D9EDA /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E2617E054A9005D9EDA /* button2.png */; };
+		22748E2D17E054A9005D9EDA /* button2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E2717E054A9005D9EDA /* button2@2x.png */; };
+		22748E2E17E054A9005D9EDA /* button3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E2817E054A9005D9EDA /* button3.png */; };
+		22748E2F17E054A9005D9EDA /* button3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E2917E054A9005D9EDA /* button3@2x.png */; };
+		22748E3017E054A9005D9EDA /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E2A17E054A9005D9EDA /* button@2x.png */; };
+		22748E3717E05648005D9EDA /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E3517E05648005D9EDA /* Icon72.png */; };
+		22748E3817E05648005D9EDA /* Icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 22748E3617E05648005D9EDA /* Icon144.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22748DF517E053C1005D9EDA /* SlidingNMultiStateButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingNMultiStateButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22748DF817E053C1005D9EDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22748DFA17E053C1005D9EDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22748DFC17E053C1005D9EDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22748E0017E053C1005D9EDA /* SlidingNMultiStateButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlidingNMultiStateButton-Info.plist"; sourceTree = "<group>"; };
+		22748E0217E053C1005D9EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22748E0417E053C1005D9EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22748E0617E053C1005D9EDA /* SlidingNMultiStateButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlidingNMultiStateButton-Prefix.pch"; sourceTree = "<group>"; };
+		22748E0717E053C1005D9EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22748E0817E053C1005D9EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22748E0A17E053C1005D9EDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22748E0C17E053C1005D9EDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22748E0E17E053C1005D9EDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22748E1017E053C1005D9EDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22748E1117E053C1005D9EDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22748E1417E053C1005D9EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		22748E1D17E05475005D9EDA /* MultiStateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiStateButton.h; sourceTree = "<group>"; };
+		22748E1E17E05475005D9EDA /* MultiStateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiStateButton.m; sourceTree = "<group>"; };
+		22748E2017E05475005D9EDA /* SlidingButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingButtonsView.h; sourceTree = "<group>"; };
+		22748E2117E05475005D9EDA /* SlidingButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingButtonsView.m; sourceTree = "<group>"; };
+		22748E2517E054A9005D9EDA /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		22748E2617E054A9005D9EDA /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		22748E2717E054A9005D9EDA /* button2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button2@2x.png"; sourceTree = "<group>"; };
+		22748E2817E054A9005D9EDA /* button3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button3.png; sourceTree = "<group>"; };
+		22748E2917E054A9005D9EDA /* button3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button3@2x.png"; sourceTree = "<group>"; };
+		22748E2A17E054A9005D9EDA /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		22748E3517E05648005D9EDA /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
+		22748E3617E05648005D9EDA /* Icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon144.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22748DF217E053C1005D9EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22748DF917E053C1005D9EDA /* UIKit.framework in Frameworks */,
+				22748DFB17E053C1005D9EDA /* Foundation.framework in Frameworks */,
+				22748DFD17E053C1005D9EDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22748DEC17E053C1005D9EDA = {
+			isa = PBXGroup;
+			children = (
+				22748DFE17E053C1005D9EDA /* SlidingNMultiStateButton */,
+				22748DF717E053C1005D9EDA /* Frameworks */,
+				22748DF617E053C1005D9EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22748DF617E053C1005D9EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22748DF517E053C1005D9EDA /* SlidingNMultiStateButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22748DF717E053C1005D9EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22748DF817E053C1005D9EDA /* UIKit.framework */,
+				22748DFA17E053C1005D9EDA /* Foundation.framework */,
+				22748DFC17E053C1005D9EDA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22748DFE17E053C1005D9EDA /* SlidingNMultiStateButton */ = {
+			isa = PBXGroup;
+			children = (
+				22748E1017E053C1005D9EDA /* ViewController.h */,
+				22748E1117E053C1005D9EDA /* ViewController.m */,
+				22748E1317E053C1005D9EDA /* ViewController.xib */,
+				22748E1C17E05475005D9EDA /* MultiStateButton */,
+				22748E1F17E05475005D9EDA /* SlidingButtons */,
+				22748E1B17E053FC005D9EDA /* Defaults */,
+				22748E2417E054A9005D9EDA /* Resources */,
+				22748DFF17E053C1005D9EDA /* Supporting Files */,
+			);
+			path = SlidingNMultiStateButton;
+			sourceTree = "<group>";
+		};
+		22748DFF17E053C1005D9EDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22748E0017E053C1005D9EDA /* SlidingNMultiStateButton-Info.plist */,
+				22748E0117E053C1005D9EDA /* InfoPlist.strings */,
+				22748E0417E053C1005D9EDA /* main.m */,
+				22748E0617E053C1005D9EDA /* SlidingNMultiStateButton-Prefix.pch */,
+				22748E0A17E053C1005D9EDA /* Default.png */,
+				22748E0C17E053C1005D9EDA /* Default@2x.png */,
+				22748E0E17E053C1005D9EDA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22748E1B17E053FC005D9EDA /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				22748E0717E053C1005D9EDA /* AppDelegate.h */,
+				22748E0817E053C1005D9EDA /* AppDelegate.m */,
+			);
+			name = Defaults;
+			sourceTree = "<group>";
+		};
+		22748E1C17E05475005D9EDA /* MultiStateButton */ = {
+			isa = PBXGroup;
+			children = (
+				22748E1D17E05475005D9EDA /* MultiStateButton.h */,
+				22748E1E17E05475005D9EDA /* MultiStateButton.m */,
+			);
+			path = MultiStateButton;
+			sourceTree = "<group>";
+		};
+		22748E1F17E05475005D9EDA /* SlidingButtons */ = {
+			isa = PBXGroup;
+			children = (
+				22748E2017E05475005D9EDA /* SlidingButtonsView.h */,
+				22748E2117E05475005D9EDA /* SlidingButtonsView.m */,
+			);
+			path = SlidingButtons;
+			sourceTree = "<group>";
+		};
+		22748E2417E054A9005D9EDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22748E3517E05648005D9EDA /* Icon72.png */,
+				22748E3617E05648005D9EDA /* Icon144.png */,
+				22748E2517E054A9005D9EDA /* button.png */,
+				22748E2617E054A9005D9EDA /* button2.png */,
+				22748E2717E054A9005D9EDA /* button2@2x.png */,
+				22748E2817E054A9005D9EDA /* button3.png */,
+				22748E2917E054A9005D9EDA /* button3@2x.png */,
+				22748E2A17E054A9005D9EDA /* button@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22748DF417E053C1005D9EDA /* SlidingNMultiStateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22748E1817E053C1005D9EDA /* Build configuration list for PBXNativeTarget "SlidingNMultiStateButton" */;
+			buildPhases = (
+				22748DF117E053C1005D9EDA /* Sources */,
+				22748DF217E053C1005D9EDA /* Frameworks */,
+				22748DF317E053C1005D9EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingNMultiStateButton;
+			productName = SlidingNMultiStateButton;
+			productReference = 22748DF517E053C1005D9EDA /* SlidingNMultiStateButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22748DED17E053C1005D9EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Shoaib Mac Mini";
+			};
+			buildConfigurationList = 22748DF017E053C1005D9EDA /* Build configuration list for PBXProject "SlidingNMultiStateButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22748DEC17E053C1005D9EDA;
+			productRefGroup = 22748DF617E053C1005D9EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22748DF417E053C1005D9EDA /* SlidingNMultiStateButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22748DF317E053C1005D9EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22748E0317E053C1005D9EDA /* InfoPlist.strings in Resources */,
+				22748E0B17E053C1005D9EDA /* Default.png in Resources */,
+				22748E0D17E053C1005D9EDA /* Default@2x.png in Resources */,
+				22748E0F17E053C1005D9EDA /* Default-568h@2x.png in Resources */,
+				22748E1517E053C1005D9EDA /* ViewController.xib in Resources */,
+				22748E2B17E054A9005D9EDA /* button.png in Resources */,
+				22748E2C17E054A9005D9EDA /* button2.png in Resources */,
+				22748E2D17E054A9005D9EDA /* button2@2x.png in Resources */,
+				22748E2E17E054A9005D9EDA /* button3.png in Resources */,
+				22748E2F17E054A9005D9EDA /* button3@2x.png in Resources */,
+				22748E3017E054A9005D9EDA /* button@2x.png in Resources */,
+				22748E3717E05648005D9EDA /* Icon72.png in Resources */,
+				22748E3817E05648005D9EDA /* Icon144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22748DF117E053C1005D9EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22748E0517E053C1005D9EDA /* main.m in Sources */,
+				22748E0917E053C1005D9EDA /* AppDelegate.m in Sources */,
+				22748E1217E053C1005D9EDA /* ViewController.m in Sources */,
+				22748E2217E05475005D9EDA /* MultiStateButton.m in Sources */,
+				22748E2317E05475005D9EDA /* SlidingButtonsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22748E0117E053C1005D9EDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22748E0217E053C1005D9EDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22748E1317E053C1005D9EDA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22748E1417E053C1005D9EDA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22748E1617E053C1005D9EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22748E1717E053C1005D9EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22748E1917E053C1005D9EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingNMultiStateButton/SlidingNMultiStateButton-Prefix.pch";
+				INFOPLIST_FILE = "SlidingNMultiStateButton/SlidingNMultiStateButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22748E1A17E053C1005D9EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingNMultiStateButton/SlidingNMultiStateButton-Prefix.pch";
+				INFOPLIST_FILE = "SlidingNMultiStateButton/SlidingNMultiStateButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22748DF017E053C1005D9EDA /* Build configuration list for PBXProject "SlidingNMultiStateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22748E1617E053C1005D9EDA /* Debug */,
+				22748E1717E053C1005D9EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22748E1817E053C1005D9EDA /* Build configuration list for PBXNativeTarget "SlidingNMultiStateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22748E1917E053C1005D9EDA /* Debug */,
+				22748E1A17E053C1005D9EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22748DED17E053C1005D9EDA /* Project object */;
+}
